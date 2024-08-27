@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/326ea70cfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To-do List</title>
+  </head>
+  <body class="">
+    <div class="container">
+      <div id="todo-app" class="bg-light w-75 mx-auto rounded-2 px-3 py-5">
+        <h1>
+          List - To Do ? <i class="fa-solid fa-rectangle-list text-primary"></i>
+        </h1>
+        <div class="input-area d-flex border border-2 rounded-4 my-5">
+          <input
+            type="text"
+            id="inp"
+            placeholder="Add your text"
+            class="form-control bg-transparent border-0"
+            value=""
+          />
+          <button id="btn" class="btn px-5 bg-primary text-light rounded-4">
+            Add
+          </button>
+        </div>
+        <ul id="tasks-list">
+          <!-- <li id="id" class="task">
+            <div class="select-task">
+              <input type="checkbox" id="1" class="form-check-input me-2" />
+              <label for="1">test</label>
+            </div>
+            <button class="btn">x</button>
+          </li>
+          <hr /> -->
+        </ul>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

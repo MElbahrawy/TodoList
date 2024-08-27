@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  background-color: rgb(49, 49, 90) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  margin-left: auto;
+}
